@@ -3,8 +3,8 @@ import AOS from 'aos';
 
 function useAOS() {
     useEffect(() => {
-        AOS.init()
+        AOS.init();
     })
 }
 
-export default useAOS
+export default useAOS;
