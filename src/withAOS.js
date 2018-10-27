@@ -10,6 +10,7 @@ const withAOS = (Component) => {
             return <Component />;
         }
     }
+    return HOC;
 }
 
 export default withAOS;
