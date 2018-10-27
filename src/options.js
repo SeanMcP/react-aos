@@ -1,3 +1,15 @@
+const anchor = [
+    'top-bottom',
+    'top-center',
+    'top-top',
+    'center-bottom',
+    'center-center',
+    'center-top',
+    'bottom-bottom',
+    'bottom-center',
+    'bottom-top',
+];
+
 const easing = [
     'linear',
     'ease',
@@ -52,6 +64,7 @@ const type = [
 ];
 
 export default {
+    anchor,
     easing,
     type
 }
