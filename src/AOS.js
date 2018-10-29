@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import OPTIONS from './options';
+import { createAttributes } from './utils';
 
 function AOS({
     anchor,
@@ -15,16 +16,12 @@ function AOS({
     type,
     ...rest
 }) {
+    const attributes = createAttributes({
+        anchor, delay, duration, easing, mirror, offset, once, type
+    });
     return (
         <div
-            data-aos={type}
-            data-aos-anchor-placement={anchor}
-            data-aos-delay={`${delay}`}
-            data-aos-duration={`${duration}`}
-            data-aos-easing={easing}
-            data-aos-mirror={mirror}
-            data-aos-offset={`${offset}`}
-            data-aos-once={once}
+            {...attributes}
             {...rest}
         >
             {children}
