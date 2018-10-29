@@ -38,6 +38,6 @@ AOS.propTypes = {
     offset: PropTypes.number,
     once: PropTypes.bool,
     type: PropTypes.oneOf(OPTIONS.type).isRequired
-}
+};
 
 export default AOS;
