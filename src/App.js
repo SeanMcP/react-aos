@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 
 import withAOS from './component/withAOS';
 // import useAOS from './useAOS';
