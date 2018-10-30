@@ -2,9 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import withAOS from './withAOS';
+import withAOS from './component/withAOS';
 // import useAOS from './useAOS';
-import AOS from './AOS';
+import AOS from './component/AOS';
 
 function App() {
     // useAOS();

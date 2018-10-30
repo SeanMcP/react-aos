@@ -1,4 +1,4 @@
-import { createAttributes } from '../utils';
+import { createAttributes } from '../component/utils';
 
 describe('createAttributes', () => {
     test('Should return object', () => {
